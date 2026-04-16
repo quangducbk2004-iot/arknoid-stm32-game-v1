@@ -83,9 +83,9 @@ SW3 (Enter): [Dành cho extended features]
 ```
 ┌─────────────────────────────────────────┐
 │          MENU STATE                     │
-│  • Select Level (1, 2, or 3)           │
-│  • Navigate with SW5 + SW2/SW4         │
-│  • Confirm with SW3                    │
+│  • Select Level (1, 2, or 3)            │
+│  • Navigate with SW5 + SW2/SW4          │
+│  • Confirm with SW3                     │
 └────────────────────┬────────────────────┘
                      │ START game
                      ▼
@@ -100,8 +100,8 @@ SW3 (Enter): [Dành cho extended features]
           ▼                     ▼
     ┌──────────────┐     ┌──────────────┐
     │ GAME OVER    │     │ LEVEL CLEAR  │
-    │ (6 LED      │     │ (3 LED       │
-    │  blinks)    │     │  blinks)     │
+    │ (6 LED       │     │ (3 LED       │
+    │  blinks)     │     │  blinks)     │
     └──────┬───────┘     └──────┬───────┘
            │                    │
            └────────┬───────────┘
@@ -288,7 +288,7 @@ arknoid-stm32-game/
 ```
 ┌─────────────────────────────────────────────┐
 │            MAIN (main.c)                    │
-│        FSM: MENU ↔ GAME ↔ GAMEOVER         │
+│        FSM: MENU ↔ GAME ↔ GAMEOVER          │
 └────────────┬────────────────────────────────┘
              │
     ┌────────┴────────────┐

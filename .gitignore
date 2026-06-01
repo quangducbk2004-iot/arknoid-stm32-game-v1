@@ -1,0 +1,19 @@
+# Build Output
+Debug/
+Release/
+*.elf
+*.hex
+*.o
+*.a
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tmp

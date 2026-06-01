@@ -7,3 +7,5 @@ This project source code was reviewed and uploaded to the official GitHub reposi
 - Verified project structure
 - Updated repository documentation
 - Prepared project for review and submission
+
+Updated repository with correct Git author email.
